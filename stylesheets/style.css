@@ -1,0 +1,6 @@
+ol ul,li{
+	list-style:none;
+}
+.basic li span{
+	padding-left:10%;
+}
