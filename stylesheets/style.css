@@ -9,3 +9,8 @@ ol ul,li{
 	display:inline-block;
 	padding-left:10%;
 }
+.my_code{
+	float:right;
+	width:50px;
+	margin-right:10%;
+}
