@@ -1,7 +1,11 @@
 ol ul,li{
 	list-style:none;
 }
+.basic li{
+	line-height:50px;
+}
 .basic li span{
 	width:30%;
+	display:inline-block;
 	padding-left:10%;
 }
