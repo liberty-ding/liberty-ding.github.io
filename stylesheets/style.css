@@ -1,3 +1,6 @@
+html,body{
+	font-family:"微软雅黑";
+}
 ol ul,li{
 	list-style:none;
 }
@@ -5,12 +8,28 @@ ol ul,li{
 	line-height:50px;
 }
 .basic li span{
-	width:30%;
+	width:40%;
 	display:inline-block;
-	padding-left:10%;
+	padding-left:8%;
 }
 .my_code{
 	float:right;
 	width:50px;
 	margin-right:10%;
+}
+.project_footer{
+	color:#fff;
+}
+.yix li{
+	line-height:50px;
+	padding-left:8%;
+}
+.exp{
+	padding-left:10%;
+}
+small{
+	float:left;
+	color:#999;
+	font-size:12px;
+	padding-top:30px;
 }
