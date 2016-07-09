@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Liberty-ding.GitHub.io : my station">
-
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" href="stylesheets/style.css">
-
     <title>Liberty-ding.GitHub.io</title>
+    <style>
+      canvas{
+        position: absolute;
+        height: 28%;
+        width: 100%;
+        opacity:0.4;
+        left: 0;
+        top: 0;
+        cursor: crosshair;
+      }
+    </style>
   </head>
 
   <body>
-
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-
           <h1 id="project_title">简历 </h1>
           <h2 id="project_tagline"></h2>
-
         </header>
     </div>
 
-    <!-- MAIN CONTENT -->
+    <!-- main content -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
@@ -48,15 +53,16 @@
          <li>月薪要求：18k</li>
        </ul> 
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>项目经验</h3>
+        <h3>
+          <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>项目经验
+       </h3>
 
-<p class="exp">西塔街：<a href="project/everyday/coupon.html">https://github.com/liberty-ding/project/blob</a></p>
-<p class="exp">每日学：<a href="project/everyday/coupon.html">https://github.com/liberty-ding/project/blob/master</a></p>
+          <p class="exp">西塔街：<a href="project/everyday/coupon.html">https://github.com/liberty-ding/project/blob</a></p>
+          <p class="exp">每日学：<a href="project/everyday/coupon.html">https://github.com/liberty-ding/project/blob/master</a></p>
 
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a></h3>
+        <h3>
+          <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+        </h3>
 
       </section>
     </div>
@@ -70,7 +76,16 @@
       </footer>
     </div>
 
-    
 
+    <!-- 画布上放烟花的效果 -->
+    <script src="javascripts/prefixfree.min.js"></script>
+    
+    <div style="text-align:center;clear:both;">
+    <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+    <script src="/follow.js" type="text/javascript"></script>
+    </div>
+      <canvas></canvas>
+
+    <script src="javascripts/index.js"></script>
   </body>
 </html>
